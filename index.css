@@ -1,0 +1,441 @@
+.container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 1200px;
+    height:4680px;
+    font-family: 'Poppins', sans-serif;
+}
+.half{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:1440px;
+    height: 811px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E2F1FF 100%);
+    opacity: 1;
+}
+.navbar{
+    position: absolute;
+    top: 24px;
+    left: 240px;
+    width: 962px;
+    height: 48px;
+    opacity: 1;
+}
+.navbar__logo{
+    top: 24px;
+    left: 240px;
+    width: 48px;
+    height: 48px;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    margin-left: 440px;
+    position: absolute;
+    top:0;
+}
+li{
+    padding-left: 20px;
+}
+.navbar__nav--button{
+    margin-left: 20px;
+    border: 2px solid #722ED1;
+    background-color: transparent;
+    color:#722ED1;
+    padding:2px 20px 2px 10px;
+    border-radius: 50px;
+}
+.colcontent__button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 224px;
+    left: 240px;
+    width: 256px;
+    height: 40px;
+    border-radius:50px;
+    background-color:#F9F0FF;
+    border: 2px solid #F9F0FF;
+}
+.colcontent__button--image{
+    position: absolute;
+    left:20px;
+    top: 10px;
+}
+.colcontent__button--ver{
+    position: absolute;
+    top: 0px;
+    left: 35px; 
+    width: 100px;
+    height: 21px;
+    color:#722ED1;
+}
+.colcontent__button--learnmore{
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 80px;
+    height: 21px;
+    text-align: left;
+    color: #722ED1;
+    text-decoration: underline;
+}
+.colcontent__heading{
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    width: 416px;
+    height: 128px;
+    font-size:40px;
+    text-align: left;
+}
+.colcontent__para{
+    position: absolute;
+    top: 385px;
+    left: 240px;
+    width: 456px;
+    height: 72px;
+    font-size: small;
+    opacity: 0.5;
+}
+.colcontent__left{
+    position: absolute;
+    top: 480px;
+    left: 240px;
+    width: 168px;
+    height: 48px;
+    border:2px solid #722ED1;
+    border-radius: 50px;
+    background-color: #722ED1;
+    color: white;
+}
+.colcontent__right{
+    position: absolute;
+    top: 480px;
+    left: 424px;
+    width: 168px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid white;
+}
+.colimage{
+    position: absolute;
+    top: 168px;
+    left: 720px;
+    width: 492px;
+    height: 386px;
+}
+.first{
+    top: 904px;
+    left: 272px;
+    width: 896px;
+    height: 528px;
+}
+.first__button{
+    position: absolute;
+    top: 904px;
+    left: 648px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #F9F0FF;
+    border-radius: 50px;
+    background-color: #F9F0FF;
+}
+.first__text{
+    color:#722ED1;
+    margin-top:10px;
+}
+.first__button--eye{
+    position: absolute;
+    left:5px;
+    bottom:10px;
+    top:10px;
+    width: 24px;
+    height: 17px;
+}
+.first__button--text{
+    position: absolute;
+    color:#722ED1;
+    top: 900px;
+    left: 694px;
+    width: 78px;
+    height: 20px;
+}
+.first__heading{
+    position: absolute;
+    top: 965px;
+    left: 472px;
+    width: 480px;
+    height: 88px;
+    text-align: center;
+}
+.first__para{
+    position: absolute;
+    top: 1080px;
+    left: 464px;
+    width: 504px;
+    height: 72px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.first__content--data{
+    position: absolute;
+    top: 1200px;
+    left: 272px;
+    width: 232px;
+    height: 232px;
+}
+.first__content--algo{
+    position: absolute;
+    top: 1200px;
+    left: 608px;
+    width: 232px;
+    height: 232px;
+}
+.first__content--business{
+    position: absolute;
+    top: 1200px;
+    left: 936px;
+    width: 232px;
+    height: 232px;
+}
+.first__font{
+    text-align: left;
+}
+.first__insight{
+    font-size: small;
+    opacity:0.5;
+    text-align: left;
+    width:232px;
+    height: 96px;
+}
+.second{
+    position: absolute;
+    top: 1646px;
+    left: 208px;
+    width: 1016px;
+    height: 436px;
+    display: flex;
+}
+.second__image{
+    width: 100px;
+    height: 100px;
+}
+.second__contents{
+    width:632px;
+    height:435px;
+    margin-top:150px;
+    margin-left: 400px;
+}
+.second__circuit{
+    width: 24px;
+    height:24px;
+    padding-right: 200px;
+    padding-top: 5px;
+}
+.second__button{
+    width: 224px;
+    height: 40px;
+    border-radius: 50px;
+    border:2px solid #F9F0FF;
+    background-color: #F9F0FF;
+}
+.second__content{
+    color:#722ED1;
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+.second__heading{
+    text-align: left;
+    margin-top: 30px;
+}
+.second__paragraph{
+    font-size: small;
+}
+.third{
+    position: absolute;
+    top: 2211px;
+    left: 238px;
+    width: 1166px;
+    height: 414px;
+    display: flex;
+}
+.third__image{
+    width: 680px;
+    height: 420px;
+}
+.third__button{
+    width:260px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #F9F0FF;
+    border: 2px solid #F9F0FF;
+}
+.third__compass{
+    padding-right: 200px;
+    padding-top: 5px;
+}
+.third__but{
+    margin-top:-20px;
+    color:#722ED1;
+}
+.fourth{
+    position: absolute;
+    top: 2672px;
+    left: 0px;
+    width: 1440px;
+    height: 400px;
+    padding-top: 100px;
+    background: transparent linear-gradient(171deg, var(--unnamed-color-f9f0ff) 0%, #E2F1FF 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(171deg, #F9F0FF 0%, #E2F1FF 100%) 0% 0% no-repeat padding-box;
+}
+.fourth__content{
+    text-align: center;
+}
+.fourth__quoted{
+    padding-left: 400px;
+    width:650px;
+    height:60px;
+    opacity: 0.8;
+}
+.fourth__image{
+    margin-top:-15px;
+}
+.fourth__gullime{
+    font-weight: bold;
+}
+.fourth__client{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.fourth__tonken{
+    font-weight: bold;
+    opacity: 0.5;
+}
+.fourth__bigspring{
+    font-weight: bold;
+}
+.fourth__clearbit{
+    opacity:0.5;
+}
+.fourth__Mine{
+    font-weight: bold;
+    opacity: 0.5;
+}
+.fourth__shake{
+    font-weight: bold;
+    opacity: 0.5;
+}
+.five{
+    position: absolute;
+    top: 3552px;
+    left: 144px;
+    width: 1064px;
+    height: 568px;
+    display: flex;
+    justify-content: space-between;
+}
+.five__para{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.five__text{
+    text-align: center;
+    text-decoration:dashed;
+}
+.five__company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:300px;
+    height:300px;
+    margin-left: 100px;
+}
+.five__back{
+    border:2px solid #F9F0FF;
+    width: 480px;
+    height: 440px;
+    background-color: #F9F0FF;
+    padding: 50px;
+
+}
+.five__insight{
+    border: 2px solid white;
+    width: 416px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: -80px;
+    margin-left: -11px;
+    padding:40px;
+}
+.five__insight--signup{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.five__box{
+    border: 1px solid black;
+    padding:10px;
+    opacity:0.5;
+}
+.five__box--trial{
+    border:2px solid #722ED1;
+    padding:10px;
+    color:white;
+    text-align: center;
+    background-color: #722ED1;
+}
+.five__or{
+    text-align: center;
+    font-weight: bold;
+}
+.five__sigin{
+    padding-left: 100px;
+}
+.five__haveacc{
+    text-align: center;
+    opacity: 0.5;
+}
+.footer{
+    position: absolute;
+    top: 4280px;
+    left: 0px;
+    width: 1440px;
+    height: 400px;
+    background-color: #FBFCFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:50px ;
+}
+.footer__first{
+    width:200px;
+    margin-top: 50px;
+}
+.footer__text{
+    font-size: 10px;
+}
+.footer__heading{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.footer__button{
+    width:150px;
+    height:40px;
+    background-color: transparent;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.footer__icon{
+    padding-left: 70px;
+    color:#722ED1;
+
+}
