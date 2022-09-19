@@ -2,7 +2,7 @@
     position: absolute;
     top:0px;
     left:0px;
-    width: 1200px;
+    width: 1400px;
     height:4680px;
     font-family: 'Poppins', sans-serif;
 }
@@ -46,6 +46,7 @@ li{
     color:#722ED1;
     padding:2px 20px 2px 10px;
     border-radius: 50px;
+    cursor: pointer;
 }
 .colcontent__button{
     display: flex;
@@ -110,6 +111,7 @@ li{
     border-radius: 50px;
     background-color: #722ED1;
     color: white;
+    cursor: pointer;
 }
 .colcontent__right{
     position: absolute;
@@ -120,6 +122,7 @@ li{
     border-radius: 50px;
     background-color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
 .colimage{
     position: absolute;
