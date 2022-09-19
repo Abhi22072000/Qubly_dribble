@@ -1,16 +1,15 @@
 .container{
-    position: absolute;
     top:0px;
     left:0px;
-    width: 1400px;
-    height:4680px;
+    margin: auto;
+    width: 800px;
     font-family: 'Poppins', sans-serif;
 }
 .half{
     position: absolute;
     top: 0px;
     left: 0px;
-    width:1440px;
+    width:1400px;
     height: 811px;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E2F1FF 100%);
     opacity: 1;
@@ -41,12 +40,18 @@ li{
 }
 .navbar__nav--button{
     margin-left: 20px;
+    margin-top: -10px;
     border: 2px solid #722ED1;
     background-color: transparent;
     color:#722ED1;
+    width:120px;
+    height:40px;
     padding:2px 20px 2px 10px;
     border-radius: 50px;
     cursor: pointer;
+}
+.content{
+    margin:auto;
 }
 .colcontent__button{
     display: flex;
@@ -82,6 +87,7 @@ li{
     text-align: left;
     color: #722ED1;
     text-decoration: underline;
+    cursor:pointer;
 }
 .colcontent__heading{
     position: absolute;
@@ -291,7 +297,7 @@ li{
     position: absolute;
     top: 2672px;
     left: 0px;
-    width: 1440px;
+    width: 1400px;
     height: 400px;
     padding-top: 100px;
     background: transparent linear-gradient(171deg, var(--unnamed-color-f9f0ff) 0%, #E2F1FF 100%) 0% 0% no-repeat padding-box;
@@ -306,9 +312,7 @@ li{
     height:60px;
     opacity: 0.8;
 }
-.fourth__image{
-    margin-top:-15px;
-}
+
 .fourth__gullime{
     font-weight: bold;
 }
@@ -338,7 +342,7 @@ li{
 .five{
     position: absolute;
     top: 3552px;
-    left: 144px;
+    left: 200px;
     width: 1064px;
     height: 568px;
     display: flex;
@@ -411,7 +415,7 @@ li{
     position: absolute;
     top: 4280px;
     left: 0px;
-    width: 1440px;
+    width:1350px;
     height: 400px;
     background-color: #FBFCFF;
     display: flex;
@@ -440,5 +444,4 @@ li{
 .footer__icon{
     padding-left: 70px;
     color:#722ED1;
-
 }
