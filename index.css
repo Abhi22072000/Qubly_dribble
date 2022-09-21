@@ -2,7 +2,8 @@
     top:0px;
     left:0px;
     margin: auto;
-    width: 800px;
+    max-width: 1200px;
+    width:100%;
     font-family: 'Poppins', sans-serif;
 }
 .half{
@@ -43,12 +44,17 @@ li{
     margin-top: -10px;
     border: 2px solid #722ED1;
     background-color: transparent;
-    color:#722ED1;
+    color: #722ED1;
+    opacity:1;
     width:120px;
     height:40px;
     padding:2px 20px 2px 10px;
     border-radius: 50px;
     cursor: pointer;
+}
+.navbar__nav--button:hover{
+    background-color:#722ED1;
+    color:#fff;
 }
 .content{
     margin:auto;
@@ -118,6 +124,11 @@ li{
     background-color: #722ED1;
     color: white;
     cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.colcontent__left:hover{
+    background-color: #7a2de6;
+    color:#fff;
 }
 .colcontent__right{
     position: absolute;
@@ -129,6 +140,9 @@ li{
     background-color: white;
     border: 2px solid white;
     cursor: pointer;
+}
+.colcontent__right:hover{
+    background-color:transparent;
 }
 .colimage{
     position: absolute;
@@ -226,7 +240,7 @@ li{
 .second{
     position: absolute;
     top: 1646px;
-    left: 208px;
+    left:100px;
     width: 1016px;
     height: 436px;
     display: flex;
@@ -238,8 +252,8 @@ li{
 .second__contents{
     width:632px;
     height:435px;
-    margin-top:150px;
-    margin-left: 400px;
+    margin-top:50px;
+    margin-left: 480px;
 }
 .second__circuit{
     width: 24px;
@@ -269,10 +283,11 @@ li{
 .third{
     position: absolute;
     top: 2211px;
-    left: 238px;
-    width: 1166px;
+    left: 150px;
+    width: 1150px;
     height: 414px;
     display: flex;
+    flex-direction: row;
 }
 .third__image{
     width: 680px;
@@ -307,7 +322,7 @@ li{
     text-align: center;
 }
 .fourth__quoted{
-    padding-left: 400px;
+    padding-left: 255px;
     width:650px;
     height:60px;
     opacity: 0.8;
@@ -318,7 +333,7 @@ li{
 }
 .fourth__client{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 .fourth__tonken{
@@ -342,8 +357,8 @@ li{
 .five{
     position: absolute;
     top: 3552px;
-    left: 200px;
     width: 1064px;
+    left:150px;
     height: 568px;
     display: flex;
     justify-content: space-between;
@@ -351,11 +366,17 @@ li{
 .five__para{
     font-weight: bold;
     font-size: 25px;
-    text-align: center;
+    text-align:left;
+    width: 350px;
+    padding-left: 60px;
+    font-family:  'Poppins', sans-serif;
+
 }
 .five__text{
     text-align: center;
+    padding-left:30px ;
     text-decoration:dashed;
+    font-family:  'Poppins', sans-serif;
 }
 .five__company{
     display: flex;
@@ -363,7 +384,8 @@ li{
     justify-content: space-between;
     width:300px;
     height:300px;
-    margin-left: 100px;
+    margin-left: 50px;
+    font-family:  'Poppins', sans-serif;
 }
 .five__back{
     border:2px solid #F9F0FF;
@@ -382,6 +404,8 @@ li{
     margin-top: -80px;
     margin-left: -11px;
     padding:40px;
+    box-shadow: 0px 10px 20px #74747429;
+    font-family:  'Poppins', sans-serif;
 }
 .five__insight--signup{
     text-align: center;

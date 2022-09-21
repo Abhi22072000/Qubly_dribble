@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qubly__Dribble</title>
     <link rel="icon" href="images/logo.svg" title="images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      
     </style>
 </head>
 <link rel="stylesheet" href="index.css">
 <body>
-<div class="container">
     <div class="half">
+        <div class="container">
         <nav class="navbar">
             <img class="navbar__logo" src="images/logo.svg" alt="Logo">
             <ul>
@@ -24,7 +27,9 @@
                 <button class="navbar__nav--button">Get Started</button>
             </ul>
         </nav>
+        </div>
         <section class="content">
+            <div class="container">
         <div class="row">
             <div class="colcontent">
                 <button class="colcontent__button"> 
@@ -41,9 +46,10 @@
                 <img src="images/entryimage.png" alt="entryimage">
             </div>
         </div>
-        </section>
         </div>
+        </section>
     <section class="first">
+        <div class="container">
     <button class="first__button">
         <img src="images/awesome-eye.svg" alt="awesome-eye" class="first__button--eye">
         <p class="first__text">Why Qubly</p>
@@ -67,8 +73,10 @@
             <p class="first__insight">Collect processed & cleansed data that is ready to be analyzed<br> to gather valuable business<br> insights.</p>
         </div>
     </div>
+    </div>
     </section>
     <section class="second">
+        <div class="container">
         <div class="second__image">
             <img src="images/second.png" alt="image logo">
         </div>
@@ -80,7 +88,9 @@
             <h1 class="second__heading">Launch with the best stack</h1>
             <p class="second__paragraph">A centralized platform that integrates zillions of data sources using Big<br> Data ELT (Extract, Load & Transform) that leaves no data behind</p>
         </div>
+        </div>
     </section>
+    <div class="container">
     <section class="third">
         <div class="third__contents">
             <button class="third__button">
@@ -94,7 +104,9 @@
             <img src="images/third.png" alt="third" class="third__image">
         </div>
     </section>
+    </div>
     <section class="fourth">
+        <div class="container">
         <div class="fourth__content">
         <p class="fourth__quoted">"What I love about Qubly is the easy way we can collaborate even if <br> there is a lot of people involved in the process"</p>
         <img src="images/fourth.png" alt="human image" class="fourth__image">
@@ -102,14 +114,17 @@
         </div>
         <hr>
         <div class="fourth__client">
-            <p class="fourth__tonken">tonkean</p>
-            <p class="fourth__bigspring">BigSpring</p>
-            <p class="fourth__clearbit">Clearbit</p>
-            <p class="fourth__Mine">Mine</p>
-            <p class="fourth__shake">shake</p>
+            <p class="fourth__client--accenture"><img src="images/accenture-4.svg" alt="accenture"></p>
+            <p class="fourth__client--airbng"> <img src="images/airbnb.svg" alt="airbng"></p>
+            <p class="fourth__client--react"> <img src="images/react.svg" alt="react"></p>
+            <p class="fourth__client--sky"><img src="images/sky-4.svg" alt="sky"></p>
+            <p class="fourth__client--aws"><img src="images/aws.png" alt="AWS"></p>
+        </div>
         </div>    
     </section>  
+   <div class="container">
     <section class="five">
+    
         <div class="five__content">
             <p class="five__para">
                 See why the world’s best <br> companies use Qubly to become truly data-driven.
@@ -139,7 +154,10 @@
                 </div>
             </div>
         </div>
+
     </section>
+    </div>
+    <div class="container">
     <section class="footer">
         <div class="footer__first">
             <img src="images/footerlogo.png" alt="footerlogo" class="footer__logo">
@@ -183,7 +201,18 @@
             <h6 class="footer__heading">newsletter</h6>
             <button class="footer__button">Email <img src="images/icons8-email-send-24.png" alt="message sent image" class="footer__icon"></button>
         </div>
+        </div>
     </section>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination"
+    }
+  });
+</script>
 </body>
 </html>
